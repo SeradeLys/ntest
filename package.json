@@ -1,0 +1,15 @@
+{
+  "name": "nutriplan",
+  "version": "1.0.0",
+  "private": true,
+  "description": "NutriPlan (Wolfie Butler): Stony Brook dining-hall meal planner with a Gemini chat, ElevenLabs voice and an optional Photon iMessage agent.",
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "dev": "node server.mjs",
+    "start": "node server.mjs",
+    "test": "node --test \"test/*.test.mjs\"",
+    "menus": "python3 tools/build-menu-manifest.py",
+    "photon": "node --env-file=.env photon/agent.mjs"
+  }
+}

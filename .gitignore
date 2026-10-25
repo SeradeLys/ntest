@@ -1,0 +1,14 @@
+# secrets and local config
+.env
+.env.*
+!.env.example
+
+# dependencies and build output
+node_modules/
+.vercel/
+dist/
+
+# OS / editor
+.DS_Store
+.vscode/
+*.log

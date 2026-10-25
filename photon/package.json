@@ -1,0 +1,8 @@
+{
+  "name": "nutriplan-photon-agent",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Optional iMessage agent for NutriPlan (Photon Spectrum). Separate from the website so its dependency stays out of the web deployment.",
+  "dependencies": { "spectrum-ts": "latest" }
+}
